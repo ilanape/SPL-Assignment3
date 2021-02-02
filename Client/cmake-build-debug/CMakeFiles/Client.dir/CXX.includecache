@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ReadFromSocketTask.h
+connectionHandler.h
+../include/connectionHandler.h
+
+../include/connectionHandler.h
+string
+-
+iostream
+-
+boost/asio.hpp
+-
+
+/home/spl211/Assignment3/Client/src/ReadFromSocketTask.cpp
+string
+-
+iostream
+-
+ReadFromSocketTask.h
+/home/spl211/Assignment3/Client/src/ReadFromSocketTask.h
+
+/home/spl211/Assignment3/Client/src/connectionHandler.cpp
+connectionHandler.h
+-
+cstdlib
+-
+boost/lexical_cast.hpp
+/home/spl211/Assignment3/Client/src/boost/lexical_cast.hpp
+
+/home/spl211/Assignment3/Client/src/echoClient.cpp
+stdlib.h
+-
+connectionHandler.h
+-
+ReadFromSocketTask.h
+/home/spl211/Assignment3/Client/src/ReadFromSocketTask.h
+thread
+-
+
